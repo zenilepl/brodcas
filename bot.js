@@ -7,7 +7,6 @@ client.on('ready', () => {
 
 
 
-client.login(process.env.BOT_TOKEN);
 
 
 
@@ -43,7 +42,7 @@ client.on('message', message => {
 	
 	
 	
-client.login(process.env.BOT_TOKEN);
+
 
 
 
@@ -61,7 +60,6 @@ client.on('ready', () => {
    client.user.setStatus("dnd")
 });
 
-client.login(process.env.BOT_TOKEN);
 
 
 client.on('message', message => {
