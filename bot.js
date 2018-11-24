@@ -73,4 +73,13 @@ client.on('message', message => {
     }
     });
 
+  client.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("514833158542196749");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send("Welcome to Clan NB9"), 4000) 
+}
+});
+
+
 client.login(process.env.BOT_TOKEN);
