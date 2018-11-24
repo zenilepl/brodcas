@@ -7,8 +7,7 @@ client.on('ready', () => {
 
 
 
-client.login('NTE1OTY0MzI0MTg3OTk2MTYx.DtswxA.8KIaV7qMA5Pjnr7cEKY13meVHVs');
-
+client.login(process.env.BOT_TOKEN);
 
 
 
@@ -44,7 +43,7 @@ client.on('message', message => {
 	
 	
 	
-client.login('NTE1OTY0MzI0MTg3OTk2MTYx.DtswxA.8KIaV7qMA5Pjnr7cEKY13meVHVs');
+client.login(process.env.BOT_TOKEN);
 
 
 
@@ -62,7 +61,7 @@ client.on('ready', () => {
    client.user.setStatus("dnd")
 });
 
-client.login('NTEyNzQ5NTQ4MjU5NzcwMzcw.Ds-CIg.oJouMLa0-O3EiUYz545FVGogWJk');
+client.login(process.env.BOT_TOKEN);
 
 
 client.on('message', message => {
@@ -76,4 +75,4 @@ client.on('message', message => {
     }
     });
 
-client.login('NTE1OTY0MzI0MTg3OTk2MTYx.DtswxA.8KIaV7qMA5Pjnr7cEKY13meVHVs');
+client.login(process.env.BOT_TOKEN);
